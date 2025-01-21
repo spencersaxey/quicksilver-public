@@ -1,12 +1,12 @@
-# -- QUICKSILVER -- 
-## Nest.js + Vite Starter App 
+# -- QUICKSILVER --
+
+## Nest.js + Vite Starter App
 
 Use NVM or NVM-WINDOWS to manage node version
 
 https://github.com/coreybutler/nvm-windows
 
 https://github.com/nvm-sh/nvm
-
 
 ### Install Node JS
 
@@ -32,12 +32,13 @@ npm --workspace apps/web install
 
 ## Database Stuff
 
-Copy the .env sample to get started:
+Copy the .env samples to get started:
 
 ```
 cp apps/api/.env.sample apps/api/.env
-
+cp packages/database/.env.sample packages/database/.env
 ```
+
 Install Postgres, MySQL or another database on your local machine & add connection information to your .env to connect to it.
 
 Then, run these commands to migrate your postgres instance to match the prisma schema. (packages/database/prisma/schema.prisma)
