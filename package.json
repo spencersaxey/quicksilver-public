@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "name": "quicksilver",
+  "version": "1.0",
+  "type": "module",
+  "scripts": {
+    "build": "turbo run build",
+    "clean": "turbo run clean",
+    "dev": "turbo run dev",
+    "mobile": "npm --workspace=mobile run start",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck",
+    "prisma:migrate": "npm --workspace packages/database exec prisma migrate dev",
+    "prisma:seed": " npm --workspace packages/database exec prisma db seed"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0"
+  },
+  "engines": {
+    "npm": ">=10",
+    "node": ">=20"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "packageManager": "npm@10.2.3",
+  "dependencies": {
+    "turbo": "^2.3.3",
+    "@swc/cli": "^0.5.2",
+    "@swc/core": "^1.10.3"
+  }
+}

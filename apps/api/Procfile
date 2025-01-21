@@ -1,0 +1,1 @@
+web: npm install && npm exec prisma generate && npm run build && npm run start:prod
