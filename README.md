@@ -1,6 +1,6 @@
 # -- QUICKSILVER --
 
-## Nest.js + Vite Starter App
+## Nest.js api & React + Vite static web Starter App
 
 Use NVM or NVM-WINDOWS to manage node version
 
