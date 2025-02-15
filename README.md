@@ -1,6 +1,6 @@
 # -- QUICKSILVER --
 
-## Nest.js api & React + Vite static web boiler plate app packaged with turborepo
+## Nest.js api & React + Vite boiler plate app (packaged with turborepo)
 
 ## Getting Started
 
