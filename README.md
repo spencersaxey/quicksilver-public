@@ -57,6 +57,10 @@ npm run dev
 
 ## Reference & Info
 
+### TurboRepo
+
+This project uses [Turborepo](https://turbo.build/repo/docs). No paid features are required for the CLI to work :)
+
 ### How to Install Individual Project Dependencies
 
 ```
@@ -84,7 +88,7 @@ Each package and app is (mostly) built with [TypeScript](https://www.typescriptl
 
 ### Utilities
 
-This Turborepo has some additional tools already setup for you:
+This [Turborepo](https://turbo.build/repo/docs) has some additional tools already setup for you:
 
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [ESLint](https://eslint.org/) for code linting
