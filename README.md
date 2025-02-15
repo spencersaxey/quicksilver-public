@@ -80,7 +80,7 @@ npm --workspace apps/web install packageName
 - `scripts`: Jest and ESLint configurations ()
 - `@repo/typescript-config`: tsconfig.json's used throughout the monorepo
 
-Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
+Each package and app is (mostly) built with [TypeScript](https://www.typescriptlang.org/).
 
 ### Utilities
 
