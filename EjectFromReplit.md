@@ -51,9 +51,11 @@ function quicksilver {
 
 ## 4: Copy contents of 'client' folder from replit into NewFolder
 
-## 5: Copy 'tsconfig.json', 'vite.config.ts', and 'package.json' from the root Replit app folder INTO NewFolder
+## 5: Copy 'tsconfig.json', 'vite.config.ts', 'tailwind config', 'post css config', and 'package.json' from the root Replit app folder INTO NewFolder
 
-## 6: Update the copied package.json from Replit with the following:
+## 6: Update the paths in tsconfig, package.json, and tailwind, looking for the 'client' folder path - this is an artifact of the Replit folder structure that we don't preserve, remove 'client' from all paths. (eg: './client/src/' => './src/')
+
+## 7: Update the copied package.json from Replit with the following:
 
 ### a: "name" should match your folder's name (eg: NewFolder)
 
