@@ -1,5 +1,7 @@
 # How to Eject A Replit Frontend into Quicksilver
 
+### We are using Replit to generate front-ends, but will replace the schema and network code generated in order to have a finer level of control.
+
 2025/07/15
 
 ## 1: Export ZIP from Replit
@@ -66,7 +68,13 @@ function quicksilver {
 "build": "vite build",
 ```
 
-## 7: Install Packages, Build & Run
+## 8: Create a new folder called 'shared' next to 'src' which you copied from Replit.
+
+### a: Use AI to translate the drizzle/zod schema into typescript interfaces.
+
+### b: Fix build errors related to schema types. (Difficulty: Super Hard)
+
+## 9: Install Packages, Build & Run
 
 ```
 npm i
