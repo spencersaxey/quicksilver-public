@@ -10,11 +10,11 @@ https://github.com/coreybutler/nvm-windows
 
 https://github.com/nvm-sh/nvm
 
-### Install Node JS v22
+### Install Node JS v24
 
 ```
-nvm install 22
-nvm use 22
+nvm install 24
+nvm use 24
 nvm list
 ```
 
